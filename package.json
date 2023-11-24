@@ -1,0 +1,19 @@
+{
+	"name": "steam-username-changer",
+	"version": "0.0.0",
+	"description": "",
+	"main": "index.js",
+	"engines": {
+		"node": "16.x"
+	},
+	"scripts": {
+		"start": "node -r dotenv/config ."
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"dotenv": "^16.3.1",
+		"steam-totp-strict": "^2.0.2",
+		"steam-user": "^4.19.12"
+	}
+}
